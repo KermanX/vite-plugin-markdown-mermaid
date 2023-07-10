@@ -4,7 +4,7 @@
 
 A plugin enables you to import a Markdown file with Mermaid charts as various formats on your [vite](https://github.com/vitejs/vite) project.
 
-### **This is a fork of [vite-plugin-markdown](https://github.com/tylingsoft/markdown-it-mermaid)**
+### **This is a fork of [vite-plugin-markdown](https://github.com/hmsk/vite-plugin-markdown)**
 
 ## Setup
 
