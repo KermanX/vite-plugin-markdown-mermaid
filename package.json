@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-markdown-mermaid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Import markdown files in vite, with Mermaid rendering support.",
   "type": "module",
   "main": "./dist/index.js",
