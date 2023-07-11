@@ -24,8 +24,8 @@ dependencies:
     specifier: ^12.3.2
     version: 12.3.2
   node-mermaid-render:
-    specifier: ^1.0.2
-    version: 1.0.2(typescript@5.1.6)
+    specifier: ^1.0.3
+    version: 1.0.3(typescript@5.1.6)
   vite:
     specifier: ^2.0.0 || ^3.0.0 || ^4.0.0
     version: 4.4.2(@types/node@16.18.38)
@@ -724,7 +724,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001514
-      electron-to-chromium: 1.4.454
+      electron-to-chromium: 1.4.455
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.9)
     dev: false
@@ -1267,8 +1267,8 @@ packages:
       domhandler: 4.3.1
     dev: false
 
-  /electron-to-chromium@1.4.454:
-    resolution: {integrity: sha512-pmf1rbAStw8UEQ0sr2cdJtWl48ZMuPD9Sto8HVQOq9vx9j2WgDEN6lYoaqFvqEHYOmGA9oRGn7LqWI9ta0YugQ==}
+  /electron-to-chromium@1.4.455:
+    resolution: {integrity: sha512-8tgdX0Odl24LtmLwxotpJCVjIndN559AvaOtd67u+2mo+IDsgsTF580NB+uuDCqsHw8yFg53l5+imFV9Fw3cbA==}
     dev: false
 
   /elkjs@0.8.2:
@@ -1565,8 +1565,8 @@ packages:
       - supports-color
     dev: false
 
-  /https-proxy-agent@7.0.0:
-    resolution: {integrity: sha512-0euwPCRyAPSgGdzD1IVN9nJYHtBhJwb6XPfbpQcYbPCwrBidX6GzxmchnaF4sfF/jPb74Ojx5g4yTg3sixlyPw==}
+  /https-proxy-agent@7.0.1:
+    resolution: {integrity: sha512-Eun8zV0kcYS1g19r78osiQLEFIRspRUDd9tIfBCTBPBeMieF/EsJNL8VI3xOIdYRDEkjQnqOYPsZ2DsWsVsFwQ==}
     engines: {node: '>= 14'}
     dependencies:
       agent-base: 7.1.0
@@ -2104,8 +2104,8 @@ packages:
       whatwg-url: 5.0.0
     dev: false
 
-  /node-mermaid-render@1.0.2(typescript@5.1.6):
-    resolution: {integrity: sha512-ATHqahtX8iYaHOr1UhStZ67Ve6vD0h9e1eyT49Xywgwwu526EMKlCXptYHN009PG1PLwtE2ZgrO3KUylxSXghA==}
+  /node-mermaid-render@1.0.3(typescript@5.1.6):
+    resolution: {integrity: sha512-4I9OWE4CdEpwix9BOlgK60Z9pxgZcie+t86tXKDsvbd/nL0cLeK30g9rFOWEpF98ZLmMBsu72ydzS8iFdz4WCQ==}
     dependencies:
       '@fortawesome/fontawesome-free': 6.4.0
       mermaid: 10.2.4
@@ -2175,7 +2175,7 @@ packages:
       debug: 4.3.4
       get-uri: 6.0.1
       http-proxy-agent: 7.0.0
-      https-proxy-agent: 7.0.0
+      https-proxy-agent: 7.0.1
       pac-resolver: 6.0.2
       socks-proxy-agent: 8.0.1
     transitivePeerDependencies:
@@ -2282,7 +2282,7 @@ packages:
       agent-base: 7.1.0
       debug: 4.3.4
       http-proxy-agent: 7.0.0
-      https-proxy-agent: 7.0.0
+      https-proxy-agent: 7.0.1
       lru-cache: 7.18.3
       pac-proxy-agent: 6.0.3
       proxy-from-env: 1.1.0
@@ -2743,6 +2743,7 @@ packages:
   /vm2@3.9.19:
     resolution: {integrity: sha512-J637XF0DHDMV57R6JyVsTak7nIL8gy5KH4r1HiwWLf/4GBbb5MKL5y7LpmF4A8E2nR6XmzpmMFQ7V7ppPTmUQg==}
     engines: {node: '>=6.0'}
+    deprecated: The library contains critical security issues and should not be used for production! The maintenance of the project has been discontinued. Consider migrating your code to isolated-vm.
     hasBin: true
     dependencies:
       acorn: 8.10.0
